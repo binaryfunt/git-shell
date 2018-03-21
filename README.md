@@ -1,8 +1,12 @@
 # git-shell
 
+A cmd script to run posh-git
+
 *Not to be confused with the git command [git-shell](https://www.google.co.uk/url?sa=t&rct=j&q=&esrc=s&source=web&cd=1&cad=rja&uact=8&ved=0ahUKEwidzqTu-f3ZAhUrKcAKHY6VDI8QFggpMAA&url=https%3A%2F%2Fgit-scm.com%2Fdocs%2Fgit-shell&usg=AOvVaw2uXwTjN4IjWFd7LP-Kovfm)*
 
 ![A demo of git-shell](demo.gif)
+
+> In this demo, I'm using [Hyper](https://hyper.is/) instead of PowerShell
 
 ## Background
 
@@ -50,9 +54,13 @@ Loads git-shell and navigates to your default folder (`~\GitHub\` if you haven't
 
     > git-shell -here
 
-Loads git-shell in the current directory
+Loads git-shell in the current directory.
 
 To change this behaviour, edit `git-shell-ps.ps1`. Do not edit `git-shell.cmd` unless you want to extend it (in which case why not create a fork of this repo).
+
+    > exit
+    
+Exits the session and returns to the last point before calling `git-shell`
 
 ## Notes
 
